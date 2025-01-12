@@ -24,3 +24,5 @@ docker-compose up -d --build server php mysql
 ```shell
 docker-compose run --rm artisan migrate
 ```
+
+5. Now you can access your application on `localhost:8000`
